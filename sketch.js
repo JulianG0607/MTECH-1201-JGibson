@@ -1,7 +1,20 @@
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(windowWidth,windowHeight);
+
+
 }
 
 function draw() {
-  background(220);
+  background(0)
+
+  let r = map(mouseX, 0, width, 0, 255)
+  let b = map(mouseX, 0, width, 255, 0)
+  let col =color(r,0,b)  
+  col = color(r, 0, b)
+
+  console.log(r)
+
+  fill(col)
+  ellipse(mouseX,mouseY, 150)
+
 }
