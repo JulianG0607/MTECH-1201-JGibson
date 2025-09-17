@@ -29,7 +29,7 @@ function draw() {
     y=0
   }
   
-  
+  //hi  
   y++ 
   x++ 
 
