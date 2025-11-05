@@ -96,7 +96,7 @@ ellipse(width/2, height/2, 200,200)
 
 
 function mousePressed(){ 
-  if(mouseIsPressed(let mario(-x,-y)))
+  
   
 }
 
